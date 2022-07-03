@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- navbar --
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">home</a></li>
+                <li class="link"><a href="#">projects</a></li>
+                    <li class="link"><a href="#">about</a></li>
+                        <li class="link"><a href="#">contact</a></li>
+        </ul>
+    </nav> //
+     
+
+<!-- home section -->
+<section class="home-section active">
+    <h1 class="hero-heading">hello, i am <br> Max</h1>
+    <img src="img/home.jpg" class="home-img" alt="">
+</section>
+
+<!-- project section -->
+<section class="project-section active">
+    <h1 class="project-heading">some of my projects</h1>
+    <div class="project-container">
+        <div class="project-card">
+            <a href="https://github.com/Max-Thi3f/Discord-Bot"> <img src="img/discord.png" class="project-img" alt=""></a>
+            <div class="project-content">
+                <h1 class="project-title">Discord Bot</h1>
+                <p class="project-info">Бот для сервера Discord</p>
+            <div class="project-btn-grp">
+                         
+            </div>
+             </div>
+        </div>
+        <div class="project-card">
+            <a href="https://play.google.com/store/apps/details?id=com.thi3f.creepy&hl=ru&gl=US"> <img src="img/creepy.png" class="project-img" alt=""></a>
+            <div class="project-content">
+                <h1 class="project-title">Creepy Jump</h1>
+                <p class="project-info">Игра на C# под Android</p>
+            <div class="project-btn-grp">
+                
+            </div>
+             </div>
+         </div>
+         <div class="project-card">
+            <img src="img/project-3.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">Сайт</h1>
+                <p class="project-info">Сайт-Портфолио построенный на HTML и CSS</p>
+            <div class="project-btn-grp">
+               
+            </div>
+             </div>
+        </div>
+        <div class="project-card">
+            <img src="img/project-4.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">project 04</h1>
+                <p class="project-info">Мои первые работы в программировании</p>
+            <div class="project-btn-grp">
+                
+            </div>
+             </div>
+        </div>
+    </section>
+
+<!-- about section -->
+<section class="about-section active">
+    <div class="about">
+        <div class="about-img-container">
+            <img src="img/home.jpg" class="about-img" alt="">
+            </div>
+            <p class="about-info">Меня Зовут Макс и я изучаю язык JavaScript. Изучаю самостоятельно, так как мне понравился данный язык
+                и я хотел бы в будущем стать ведущим программистом по данном языку. Это мой не первый язык, изначально я изучал С# и создал
+                мобильную игру на платформе Unity. Но прошло достаточно времени, чтобы я вновь начал изучать языки и вот решился на данный шаг
+                уже окончательно. Надеюсь у меня всё получиться и я смогу работать программистом и помогать тем самым большому количеству людей, 
+                чтобы сделать жизнь лучше.
+            </p>
+        </div>
+
+
+<!-- skills -->
+<div class="skill-section">
+    <h1 class="heading">skills</h1>
+    <div class="skills-container">
+        <div class="skill-card">
+            <img src="img/html.png" class="skill-img" alt="">
+            <div class="skill-level">45%</div>
+            <h1 class="skill-name">HTML</h1>
+            <p class="skill-info">Изучение HTML кода</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="img/css.png" class="skill-img" alt="">
+                <div class="skill-level">55%</div>
+                <h1 class="skill-name">CSS</h1>
+                <p class="skill-info">Изучение CSS</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="img/js.png" class="skill-img" alt="">
+                    <div class="skill-level">35%</div>
+                    <h1 class="skill-name">JS</h1>
+                    <p class="skill-info">Изучение JS</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <img src="img/nodejs.png" class="skill-img" alt="">
+                        <div class="skill-level">0%</div>
+                        <h1 class="skill-name">Node</h1>
+                        <p class="skill-info">Изучение NodeJs</p>
+                    </div>
+                </div>
+</div>
+</section>
+
+<!-- contact section -->\
+
+<section class="contact-section active">
+    <form class="contact-form">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+        <button type="submit" class="form-submit-btn">contact</button>
+    </form>
+
+    <!-- map -->
+    
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2114.3667369377886!2d56.21819201611362!3d57.99855812403777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43e8c736e90c8837%3A0xd76ed1833d62b230!2z0YPQuy4g0JrRgNGL0LvQvtCy0LAsIDE10JAsINCf0LXRgNC80YwsINCf0LXRgNC80YHQutC40Lkg0LrRgNCw0LksIDYxNDAzNw!5e0!3m2!1sru!2sru!4v1656362707135!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
